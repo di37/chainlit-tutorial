@@ -1,0 +1,7 @@
+services:
+  pythonapp:
+    build: ./
+    image: chainlit_basic_demo
+    ports:
+      - "3000:3000"
+    restart: always
